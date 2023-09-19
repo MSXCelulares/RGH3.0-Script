@@ -185,23 +185,23 @@ ECHO  บ                                                                       บ
 ECHO  ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 CALL :c 79 "  Modelo de XBox 360 => " & CALL :c 74 "%model%" & ECHO.
 IF /i "%model%"=="CORONA 4Gb" ( 
-	CALL :c 73 "      POST_BUS_1     => DB3R3 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB3R4 (Lado B)" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => DB3R3 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB3R4 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="CORONA 16Mb" (
-	CALL :c 73 "      POST_BUS_1     => DB3R3 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB3R4 (Lado B)" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => DB3R3 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB3R4 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="FALCON 10Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="FALCON 27Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="JASPER 10Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="JASPER 27Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="JASPER64 10Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="JASPER64 27Mhz" (
-	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3P7 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB1F1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 ) ELSE IF /i "%model%"=="TRINITY" (
-	CALL :c 73 "      POST_BUS_1     => R3R19 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB2G3 (Lado A) OU FT2V1 (Lado B)" & ECHO. & CALL :c 7C "      CPU_PLL_BYPASS => INSTALAR RESISTOR 10K" & ECHO.
+	CALL :c 73 "      POST_BUS_1     => R3R19 (Lado B)" & ECHO. & CALL :c 7D "      CPU_PLL_BYPASS => DB2G3 (Lado A) OU FT2V1 (Lado B)" & ECHO. & CALL :c 7C "      RECOMENDADO    => INSTALAR REGULADOR 1.2V" & ECHO.
 )
 ECHO.
 CALL :c 79 "  Arquivo Xell/ECC   => " & CALL :c 0f "%ecc%" & ECHO.

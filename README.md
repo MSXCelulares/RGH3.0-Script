@@ -30,6 +30,9 @@ Pontos de Solda
 
 ## Changelog
 
+### v0.1.2
+* Atualização das imagens com os reguladores de 1v2 de proteção do circuito
+
 ### v0.1.1
 * Imagens de Amostra dos pontos de soldagem
 * Importação da CPUKEY do arquivo cpukey.txt
